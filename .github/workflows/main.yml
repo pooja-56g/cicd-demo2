@@ -21,5 +21,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./
+          force_orphan: true 
           user_name: "github-actions"
           user_email: "github-actions@github.com"
